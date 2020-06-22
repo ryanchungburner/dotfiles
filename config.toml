@@ -1,0 +1,27 @@
+theme = "slick"
+icons = "awesome"
+
+[[block]]
+block = "sound"
+format = "{volume}"
+
+[[block]]
+block = "music"
+buttons = ["prev", "play", "next"]
+
+[[block]]
+block = "networkmanager"
+# on_click = "nm-connection-applet"
+device_format = "{icon} {typename}-{ap}"
+
+[[block]]
+block = "battery"
+interval = 10
+format = "{percentage}% {time}"
+
+[[block]]
+block = "time"
+interval = 60
+format = "%a %m/%d %R"
+
+
